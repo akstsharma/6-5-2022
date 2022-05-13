@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html>
+	<head>
+		 <title>
+			   Hover Element
+		 </title>
+		 
+		 <style type="text/css">
+				#MainUL li ul li{display:none;}
+				#MainUL li:hover ul li{display:block;}
+				#MainUL li:hover ul li ul li{display:none;}
+				#MainUL li ul li:hover ul li{display:block;}
+				#MainUL li ul li:hover ul li ul li{display:none;}
+				#MainUL li ul li ul li:hover ul li{dispaly:block;}
+		 </style>
+		 
+	</head>
+	<body>
+		 <ul id="MainUL">
+			<li>friends
+				<ul>
+					<li>friends
+						<ul>
+							<li>akshay</li>
+							<li>sharma</li>
+								<ul>
+									<li>yash</li>
+									<li>soni</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>darsh</li>
+					<li>yash</li>
+					<li>pratham</li>
+				</ul>
+			</li>
+			<li>swayam</li>
+			<li>abhisekh
+				<ul>
+					<li>yash</li>
+					<li>pratham</li>
+				</ul>
+			</li>
+			<li>darsh</li>
+			<li>abhisekh
+			</li>
+		</ul>
+		
+	</body>
+</html>
